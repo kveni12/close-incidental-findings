@@ -1,0 +1,19 @@
+# Core CLOSE dependencies (CPU evaluation + rule-based pipeline).
+# For local LLM Capture, also install an Ollama binary (see scripts/install_ollama.sh).
+# For GPU vLLM experiments, add torch/vLLM separately.
+
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+pandas>=2.0
+pydantic>=2.6
+PyYAML>=6.0
+openai>=1.8
+httpx>=0.26
+requests>=2.31
+tqdm>=4.66
+matplotlib>=3.8
+pytest>=7.4
+
+# Optional RAG PDF parsing
+pypdf>=4.0

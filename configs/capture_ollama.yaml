@@ -1,0 +1,13 @@
+data_dir: data
+output_dir: outputs/ollama
+inference_mode: LOCAL_OLLAMA
+llm_model: qwen3.6:35b
+llm_base_url: http://127.0.0.1:11434/v1
+llm_api_key: ollama
+llm_max_tokens: 1536
+llm_retries: 3
+llm_report_chars: 12000
+allow_rule_fallback: false
+batch_size: 8
+gpu_count: 1
+mixed_precision: true

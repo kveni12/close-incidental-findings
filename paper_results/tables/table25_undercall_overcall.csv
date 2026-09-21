@@ -1,0 +1,10 @@
+model,configuration,n,undercalls,overcalls,undercall_rate,overcall_rate,undercalls_off_by_ge2,overcalls_off_by_ge2,mean_signed_severity_bias,n_true_actionable,actionable_not_called_actionable,actionable_sensitivity,actionable_collapsed_to_none
+Llama-4 Scout,llm_only,1000,126,30,0.126,0.030,46,6,-0.143,80,68,0.150,7
+Llama-4 Scout,calibrate,1000,82,42,0.082,0.042,35,12,-0.068,80,38,0.525,7
+Llama-4 Scout,full_hybrid,1000,8,42,0.008,0.042,4,12,0.044,80,6,0.925,0
+Qwen3.6-35B,llm_only,1000,108,24,0.108,0.024,58,4,-0.142,80,58,0.275,4
+Qwen3.6-35B,calibrate,1000,67,56,0.067,0.056,27,10,-0.031,80,36,0.550,4
+Qwen3.6-35B,full_hybrid,1000,3,56,0.003,0.056,3,10,0.061,80,3,0.963,0
+Mistral-Small-3.2,llm_only,1000,108,68,0.108,0.068,43,24,-0.060,80,67,0.162,4
+Mistral-Small-3.2,calibrate,1000,97,67,0.097,0.067,53,27,-0.046,80,54,0.325,4
+Mistral-Small-3.2,full_hybrid,1000,34,67,0.034,0.067,18,27,0.056,80,18,0.775,0

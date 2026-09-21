@@ -1,0 +1,4 @@
+model,n_assignments,n_failsafe,failsafe_rate,n_human_review,human_review_rate,provider_type_counts_json,evaluation_mode
+Llama-4 Scout,286,286,1.000,286,1.000,{"safety_pool": 286},failsafe_only
+Qwen3.6-35B,313,313,1.000,313,1.000,{"safety_pool": 313},failsafe_only
+Mistral-Small-3.2,249,249,1.000,249,1.000,{"safety_pool": 249},failsafe_only

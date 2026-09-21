@@ -1,0 +1,8 @@
+system,n,presence_balanced_acc,presence_kappa,actionable_balanced_acc,actionable_kappa,actionability_linear_kappa,actionability_macro_f1
+DumbRegex+Size,1000,0.842,0.761,0.773,0.573,0.691,0.507
+Llama-4 Scout/llm_only,1000,0.903,0.851,0.571,0.218,0.653,0.500
+Llama-4 Scout/full_hybrid,1000,0.995,0.981,0.955,0.870,0.910,0.839
+Qwen3.6-35B/llm_only,1000,0.932,0.888,0.632,0.364,0.680,0.529
+Qwen3.6-35B/full_hybrid,1000,0.993,0.973,0.975,0.903,0.905,0.819
+Mistral-Small-3.2/llm_only,1000,0.925,0.837,0.576,0.225,0.628,0.495
+Mistral-Small-3.2/full_hybrid,1000,0.976,0.907,0.873,0.714,0.789,0.723

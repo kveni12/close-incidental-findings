@@ -1,0 +1,6 @@
+scenario,expected_provider_type,observed_provider_type,expected_failsafe,observed_failsafe,human_review_required,correct
+pcp_available,PCP,PCP,False,False,False,True
+specialist_available,specialist,specialist,False,False,False,True
+ordering_provider_non_ed,ordering_provider,ordering_provider,False,False,True,True
+ed_with_ordering_only,safety_pool,safety_pool,True,True,True,True
+missing_all_context,safety_pool,safety_pool,True,True,True,True

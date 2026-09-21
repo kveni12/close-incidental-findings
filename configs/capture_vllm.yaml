@@ -1,0 +1,13 @@
+data_dir: data
+output_dir: outputs/vllm
+inference_mode: LOCAL_VLLM
+llm_model: Qwen/Qwen2.5-32B-Instruct
+llm_base_url: http://127.0.0.1:8000/v1
+llm_api_key: EMPTY
+llm_max_tokens: 1536
+llm_retries: 3
+llm_report_chars: 12000
+allow_rule_fallback: false
+batch_size: 8
+gpu_count: 1
+mixed_precision: true

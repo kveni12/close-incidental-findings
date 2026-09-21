@@ -1,0 +1,13 @@
+model,configuration,template_slice,n,presence_kappa,actionable_kappa,actionability_linear_kappa
+Llama-4 Scout,llm_only,structured,178,0.052,0.128,0.198
+Llama-4 Scout,llm_only,sparse,822,0.808,0.195,0.647
+Llama-4 Scout,full_hybrid,structured,178,1.000,0.808,0.726
+Llama-4 Scout,full_hybrid,sparse,822,0.945,0.886,0.916
+Qwen3.6-35B,llm_only,structured,178,0.081,0.243,0.228
+Qwen3.6-35B,llm_only,sparse,822,0.835,0.392,0.683
+Qwen3.6-35B,full_hybrid,structured,178,1.000,0.880,0.733
+Qwen3.6-35B,full_hybrid,sparse,822,0.923,0.862,0.894
+Mistral-Small-3.2,llm_only,structured,178,0.096,0.136,0.179
+Mistral-Small-3.2,llm_only,sparse,822,0.696,0.174,0.554
+Mistral-Small-3.2,full_hybrid,structured,178,1.000,0.751,0.637
+Mistral-Small-3.2,full_hybrid,sparse,822,0.763,0.464,0.643

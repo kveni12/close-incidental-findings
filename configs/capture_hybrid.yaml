@@ -1,0 +1,7 @@
+data_dir: data
+output_dir: outputs/hybrid
+inference_mode: HYBRID_LLM
+llm_model: gpt-4o-mini
+batch_size: 16
+max_concurrency: 4
+capture_confidence_threshold: 0.65

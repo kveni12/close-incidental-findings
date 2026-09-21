@@ -1,0 +1,31 @@
+model,configuration,organ,n_true_present,n_true_actionable,presence_sensitivity,presence_specificity,presence_kappa,actionability_linear_kappa,actionability_quadratic_kappa,actionable_sensitivity,actionable_specificity,actionable_ppv
+Llama-4 Scout,llm_only,kidney,167,28,0.731,0.977,0.755,0.598,0.630,0.071,0.996,0.333
+Llama-4 Scout,llm_only,liver,185,30,0.605,0.977,0.656,0.582,0.669,0.167,0.996,0.556
+Llama-4 Scout,llm_only,adrenal,161,5,0.242,0.982,0.307,0.342,0.450,0.600,0.999,0.750
+Llama-4 Scout,llm_only,pancreas,160,34,0.256,0.987,0.335,0.283,0.416,0.000,0.998,0.000
+Llama-4 Scout,llm_only,adnexal,15,2,0.667,0.995,0.662,0.618,0.671,1.000,1.000,1.000
+Llama-4 Scout,full_hybrid,kidney,167,28,1.000,0.977,0.935,0.871,0.880,1.000,0.991,0.757
+Llama-4 Scout,full_hybrid,liver,185,30,1.000,0.977,0.939,0.921,0.935,0.967,0.995,0.853
+Llama-4 Scout,full_hybrid,adrenal,161,5,1.000,0.982,0.946,0.917,0.888,0.800,0.999,0.800
+Llama-4 Scout,full_hybrid,pancreas,160,34,1.000,0.987,0.960,0.922,0.912,0.824,0.996,0.875
+Llama-4 Scout,full_hybrid,adnexal,15,2,1.000,0.995,0.855,0.855,0.885,1.000,1.000,1.000
+Qwen3.6-35B,llm_only,kidney,167,28,0.760,0.976,0.774,0.638,0.663,0.214,0.997,0.667
+Qwen3.6-35B,llm_only,liver,185,30,0.589,0.968,0.622,0.579,0.678,0.300,0.995,0.643
+Qwen3.6-35B,llm_only,adrenal,161,5,0.230,0.980,0.286,0.292,0.367,0.400,0.999,0.667
+Qwen3.6-35B,llm_only,pancreas,160,34,0.231,0.988,0.307,0.275,0.398,0.088,0.998,0.600
+Qwen3.6-35B,llm_only,adnexal,15,2,0.600,0.981,0.407,0.432,0.538,1.000,1.000,1.000
+Qwen3.6-35B,full_hybrid,kidney,167,28,1.000,0.976,0.931,0.872,0.889,1.000,0.992,0.778
+Qwen3.6-35B,full_hybrid,liver,185,30,1.000,0.968,0.918,0.891,0.905,0.967,0.995,0.853
+Qwen3.6-35B,full_hybrid,adrenal,161,5,1.000,0.980,0.940,0.918,0.900,1.000,0.999,0.833
+Qwen3.6-35B,full_hybrid,pancreas,160,34,1.000,0.988,0.964,0.943,0.935,0.941,0.996,0.889
+Qwen3.6-35B,full_hybrid,adnexal,15,2,1.000,0.981,0.604,0.586,0.599,1.000,0.999,0.667
+Mistral-Small-3.2,llm_only,kidney,167,28,0.695,0.954,0.670,0.531,0.580,0.107,0.994,0.333
+Mistral-Small-3.2,llm_only,liver,185,30,0.497,0.958,0.520,0.509,0.640,0.167,0.998,0.714
+Mistral-Small-3.2,llm_only,adrenal,161,5,0.193,0.963,0.207,0.236,0.320,0.600,0.997,0.500
+Mistral-Small-3.2,llm_only,pancreas,160,34,0.200,0.990,0.274,0.258,0.383,0.029,0.998,0.333
+Mistral-Small-3.2,llm_only,adnexal,15,2,0.867,0.951,0.326,0.279,0.305,1.000,0.999,0.667
+Mistral-Small-3.2,full_hybrid,kidney,167,28,1.000,0.954,0.875,0.816,0.849,0.857,0.996,0.857
+Mistral-Small-3.2,full_hybrid,liver,185,30,1.000,0.958,0.895,0.859,0.884,0.733,0.996,0.846
+Mistral-Small-3.2,full_hybrid,adrenal,161,5,1.000,0.963,0.894,0.816,0.688,1.000,0.986,0.263
+Mistral-Small-3.2,full_hybrid,pancreas,160,34,1.000,0.990,0.971,0.919,0.911,0.706,0.998,0.923
+Mistral-Small-3.2,full_hybrid,adnexal,15,2,1.000,0.951,0.369,0.308,0.302,1.000,0.993,0.222

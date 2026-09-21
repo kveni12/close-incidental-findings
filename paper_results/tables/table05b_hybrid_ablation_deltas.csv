@@ -1,0 +1,10 @@
+model,contrast,delta_linear_kappa_ci
+Llama-4 Scout,B_minus_A_calibrate_gain,0.082 (0.045–0.123)
+Llama-4 Scout,C_minus_B_supplement_gain,0.175 (0.139–0.214)
+Llama-4 Scout,C_minus_A_total_hybrid_gain,0.257 (0.213–0.305)
+Qwen3.6-35B,B_minus_A_calibrate_gain,0.086 (0.042–0.129)
+Qwen3.6-35B,C_minus_B_supplement_gain,0.139 (0.104–0.174)
+Qwen3.6-35B,C_minus_A_total_hybrid_gain,0.226 (0.179–0.272)
+Mistral-Small-3.2,B_minus_A_calibrate_gain,-0.010 (-0.042–0.018)
+Mistral-Small-3.2,C_minus_B_supplement_gain,0.172 (0.132–0.210)
+Mistral-Small-3.2,C_minus_A_total_hybrid_gain,0.161 (0.122–0.200)

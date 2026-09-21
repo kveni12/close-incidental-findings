@@ -1,0 +1,34 @@
+model,configuration,category,count
+Llama-4 Scout,llm_only,actionability_undercall,2
+Llama-4 Scout,llm_only,agree,8
+Llama-4 Scout,llm_only,cyst_morphology_language,12
+Llama-4 Scout,llm_only,false_positive_detection,5
+Llama-4 Scout,llm_only,finding_missed,5
+Llama-4 Scout,llm_only,no_menopausal_context_in_evidence,20
+Llama-4 Scout,full_hybrid,actionability_threshold_undercall,1
+Llama-4 Scout,full_hybrid,agree,14
+Llama-4 Scout,full_hybrid,cyst_morphology_language,12
+Llama-4 Scout,full_hybrid,false_positive_detection,5
+Llama-4 Scout,full_hybrid,no_menopausal_context_in_evidence,20
+Qwen3.6-35B,llm_only,actionability_undercall,2
+Qwen3.6-35B,llm_only,agree,7
+Qwen3.6-35B,llm_only,cyst_morphology_language,12
+Qwen3.6-35B,llm_only,false_positive_detection,19
+Qwen3.6-35B,llm_only,finding_missed,6
+Qwen3.6-35B,llm_only,no_menopausal_context_in_evidence,34
+Qwen3.6-35B,full_hybrid,actionability_threshold_undercall,1
+Qwen3.6-35B,full_hybrid,agree,14
+Qwen3.6-35B,full_hybrid,cyst_morphology_language,12
+Qwen3.6-35B,full_hybrid,false_positive_detection,19
+Qwen3.6-35B,full_hybrid,no_menopausal_context_in_evidence,34
+Mistral-Small-3.2,llm_only,actionability_undercall,4
+Mistral-Small-3.2,llm_only,agree,9
+Mistral-Small-3.2,llm_only,cyst_morphology_language,32
+Mistral-Small-3.2,llm_only,false_positive_detection,48
+Mistral-Small-3.2,llm_only,finding_missed,2
+Mistral-Small-3.2,llm_only,no_menopausal_context_in_evidence,63
+Mistral-Small-3.2,full_hybrid,actionability_threshold_undercall,4
+Mistral-Small-3.2,full_hybrid,agree,11
+Mistral-Small-3.2,full_hybrid,cyst_morphology_language,32
+Mistral-Small-3.2,full_hybrid,false_positive_detection,48
+Mistral-Small-3.2,full_hybrid,no_menopausal_context_in_evidence,63

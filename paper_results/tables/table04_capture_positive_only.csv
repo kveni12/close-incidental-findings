@@ -1,0 +1,4 @@
+model,n_positive_reports,presence_sensitivity_ci,actionable_balanced_acc_ci,actionable_kappa_ci,actionability_linear_kappa_ci
+Llama-4 Scout,243,1.000 (1.000–1.000),0.926 (0.884–0.962),0.835 (0.756–0.908),0.767 (0.690–0.832)
+Qwen3.6-35B,243,1.000 (1.000–1.000),0.948 (0.916–0.975),0.873 (0.808–0.935),0.755 (0.683–0.815)
+Mistral-Small-3.2,243,1.000 (1.000–1.000),0.851 (0.799–0.898),0.715 (0.620–0.806),0.598 (0.502–0.683)

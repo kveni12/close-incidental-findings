@@ -1,0 +1,4 @@
+model,n_supplemented,precision_vs_gold,text_support_precision,fabrication_rate,n_unsupported,recall_of_llm_misses,n_recovered,n_unrecovered
+Llama-4 Scout,596,1.000,0.158,0.842,502,1.000,598,0
+Qwen3.6-35B,611,1.000,0.165,0.835,510,1.000,613,0
+Mistral-Small-3.2,623,1.000,0.173,0.827,515,1.000,624,0

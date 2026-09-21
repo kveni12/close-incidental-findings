@@ -1,0 +1,34 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenvs / tools
+.venv/
+venv/
+.env
+.env.*
+.tools/
+
+# Runtime artifacts (never commit)
+outputs/
+logs/
+data/ollama_models/
+data/*.txt
+data/*.csv
+data/gold_labels/
+data/guideline_rag/chunks.jsonl
+incidental_findings_white_papers/*.pdf
+
+# Local notebooks / OS
+.ipynb_checkpoints/
+.DS_Store
+*.swp
+
+# Large archives
+*.zip
+*.tar.gz

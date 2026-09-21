@@ -1,0 +1,19 @@
+model,error_type,count,with_capture_organ_mismatch,despite_matching_capture_organs
+Llama-4 Scout,missed_necessary_followup,6,6,0
+Llama-4 Scout,unnecessary_followup,35,35,0
+Llama-4 Scout,wrong_modality,12,2,10
+Llama-4 Scout,wrong_interval,10,2,8
+Llama-4 Scout,wrong_guideline_pathway,20,3,17
+Llama-4 Scout,complete_recommendation_agree_organ,120,0,0
+Qwen3.6-35B,missed_necessary_followup,3,3,0
+Qwen3.6-35B,unnecessary_followup,45,45,0
+Qwen3.6-35B,wrong_modality,16,4,12
+Qwen3.6-35B,wrong_interval,14,4,10
+Qwen3.6-35B,wrong_guideline_pathway,22,4,18
+Qwen3.6-35B,complete_recommendation_agree_organ,121,0,0
+Mistral-Small-3.2,missed_necessary_followup,34,34,0
+Mistral-Small-3.2,unnecessary_followup,46,46,0
+Mistral-Small-3.2,wrong_modality,13,3,10
+Mistral-Small-3.2,wrong_interval,12,2,10
+Mistral-Small-3.2,wrong_guideline_pathway,23,3,20
+Mistral-Small-3.2,complete_recommendation_agree_organ,81,0,0

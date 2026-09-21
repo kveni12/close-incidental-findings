@@ -1,0 +1,10 @@
+model,configuration,n,presence_kappa,followup_kappa,actionability_linear_kappa
+Llama-4 Scout,calibrate,200,0.878,0.564,0.614
+Llama-4 Scout,full_hybrid,200,0.641,0.581,0.530
+Llama-4 Scout,llm_only,200,0.878,0.228,0.602
+Mistral-Small-3.2,calibrate,200,0.760,0.344,0.483
+Mistral-Small-3.2,full_hybrid,200,0.585,0.488,0.485
+Mistral-Small-3.2,llm_only,200,0.760,0.260,0.520
+Qwen3.6-35B,calibrate,200,0.845,0.590,0.596
+Qwen3.6-35B,full_hybrid,200,0.651,0.561,0.516
+Qwen3.6-35B,llm_only,200,0.845,0.469,0.643

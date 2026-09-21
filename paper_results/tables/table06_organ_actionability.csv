@@ -1,0 +1,16 @@
+model,organ,linear_kappa,nominal_kappa,macro_f1,accuracy
+Llama-4 Scout,kidney,0.871,0.864,0.829,0.958
+Llama-4 Scout,liver,0.921,0.915,0.895,0.972
+Llama-4 Scout,adrenal,0.917,0.940,0.823,0.983
+Llama-4 Scout,pancreas,0.922,0.937,0.911,0.982
+Llama-4 Scout,adnexal,0.855,0.826,0.886,0.994
+Qwen3.6-35B,kidney,0.872,0.858,0.830,0.956
+Qwen3.6-35B,liver,0.891,0.889,0.834,0.963
+Qwen3.6-35B,adrenal,0.918,0.934,0.848,0.981
+Qwen3.6-35B,pancreas,0.943,0.951,0.905,0.986
+Qwen3.6-35B,adnexal,0.586,0.586,0.720,0.980
+Mistral-Small-3.2,kidney,0.816,0.793,0.733,0.934
+Mistral-Small-3.2,liver,0.859,0.849,0.821,0.949
+Mistral-Small-3.2,adrenal,0.816,0.892,0.732,0.968
+Mistral-Small-3.2,pancreas,0.919,0.936,0.934,0.982
+Mistral-Small-3.2,adnexal,0.308,0.322,0.464,0.948

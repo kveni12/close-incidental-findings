@@ -1,0 +1,34 @@
+model,category,count
+Llama-4 Scout,actionability_overcall,30
+Llama-4 Scout,actionability_undercall,126
+Llama-4 Scout,comparison_to_priors,181
+Llama-4 Scout,discordant_reports,230
+Llama-4 Scout,finding_in_body_not_impression,83
+Llama-4 Scout,hedged_language,157
+Llama-4 Scout,multiple_lesions_language,92
+Llama-4 Scout,no_tagged_phenotype,17
+Llama-4 Scout,organ_false_positive,62
+Llama-4 Scout,organ_miss,178
+Llama-4 Scout,two_plane_size,2
+Qwen3.6-35B,actionability_overcall,24
+Qwen3.6-35B,actionability_undercall,108
+Qwen3.6-35B,comparison_to_priors,181
+Qwen3.6-35B,discordant_reports,226
+Qwen3.6-35B,finding_in_body_not_impression,86
+Qwen3.6-35B,hedged_language,150
+Qwen3.6-35B,multiple_lesions_language,92
+Qwen3.6-35B,no_tagged_phenotype,18
+Qwen3.6-35B,organ_false_positive,77
+Qwen3.6-35B,organ_miss,181
+Qwen3.6-35B,two_plane_size,2
+Mistral-Small-3.2,actionability_overcall,68
+Mistral-Small-3.2,actionability_undercall,108
+Mistral-Small-3.2,comparison_to_priors,191
+Mistral-Small-3.2,discordant_reports,258
+Mistral-Small-3.2,finding_in_body_not_impression,90
+Mistral-Small-3.2,hedged_language,165
+Mistral-Small-3.2,multiple_lesions_language,93
+Mistral-Small-3.2,no_tagged_phenotype,35
+Mistral-Small-3.2,organ_false_positive,103
+Mistral-Small-3.2,organ_miss,188
+Mistral-Small-3.2,two_plane_size,2

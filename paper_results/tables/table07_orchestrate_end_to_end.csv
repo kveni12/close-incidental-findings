@@ -1,0 +1,10 @@
+model,configuration,followup_balanced_acc,followup_sens,followup_spec,followup_ppv,followup_f1,followup_kappa,guideline_kappa,modality_kappa,timeframe_kappa,rule_id_exact_match,missed_necessary_followup,unnecessary_followup
+Llama-4 Scout,A: LLM-only,0.710,0.445,0.975,0.707,0.546,0.500,0.381,0.360,0.386,0.596,66,22
+Llama-4 Scout,B: + ACR calibrate,0.808,0.655,0.960,0.690,0.672,0.629,0.545,0.555,0.593,0.787,41,35
+Llama-4 Scout,C: Full hybrid,0.955,0.950,0.960,0.764,0.846,0.823,0.798,0.726,0.729,0.857,6,35
+Qwen3.6-35B,A: LLM-only,0.651,0.311,0.991,0.822,0.451,0.413,0.346,0.337,0.336,0.400,82,8
+Qwen3.6-35B,B: + ACR calibrate,0.840,0.731,0.949,0.659,0.693,0.649,0.517,0.554,0.628,0.765,32,45
+Qwen3.6-35B,C: Full hybrid,0.962,0.975,0.949,0.720,0.829,0.801,0.771,0.777,0.804,0.847,3,45
+Mistral-Small-3.2,A: LLM-only,0.707,0.471,0.944,0.533,0.500,0.437,0.346,0.298,0.294,0.481,63,49
+Mistral-Small-3.2,B: + ACR calibrate,0.659,0.370,0.948,0.489,0.421,0.355,0.309,0.311,0.273,0.535,75,46
+Mistral-Small-3.2,C: Full hybrid,0.831,0.714,0.948,0.649,0.680,0.634,0.623,0.575,0.505,0.779,34,46

@@ -1,0 +1,1347 @@
+{
+  "per_class": {
+    "Llama-4 Scout/llm_only": {
+      "model": "Llama-4 Scout",
+      "configuration": "llm_only",
+      "n": 1000,
+      "true_distribution": {
+        "none": 757.0,
+        "non_actionable": 124.0,
+        "uncertain": 39.0,
+        "actionable": 80.0
+      },
+      "pred_distribution": {
+        "none": 795.0,
+        "non_actionable": 130.0,
+        "uncertain": 56.0,
+        "actionable": 19.0
+      },
+      "kappa_nominal": 0.5876953491506789,
+      "kappa_linear_weighted": 0.6534940691077875,
+      "kappa_quadratic_weighted": 0.7247525946232363,
+      "primary_kappa": 0.6534940691077875,
+      "kappa_weighting_note": "Primary reported \u03ba is linear-weighted Cohen's \u03ba on the ordinal scale none < non_actionable < uncertain < actionable. Quadratic \u03ba also reported. Unweighted (nominal) \u03ba is shown for completeness but is not appropriate as the primary ordinal endpoint.",
+      "actionable_sensitivity": 0.15,
+      "actionable_specificity": 0.9923913043478261,
+      "high_urgency_binary": {
+        "sensitivity": 1.0,
+        "specificity": 0.970736629667003,
+        "positive_predictive_value": 0.23684210526315788,
+        "negative_predictive_value": 1.0,
+        "accuracy": 0.971,
+        "balanced_accuracy": 0.9853683148335015,
+        "f1": 0.3829787234042553,
+        "cohen_kappa": 0.3738664824250799,
+        "true_positives": 9.0,
+        "false_positives": 29.0,
+        "false_negatives": 0.0,
+        "true_negatives": 962.0,
+        "n": 1000.0,
+        "prevalence": 0.009
+      },
+      "urgent_only_binary": {
+        "sensitivity": 0.0,
+        "specificity": 1.0,
+        "positive_predictive_value": null,
+        "negative_predictive_value": 0.999,
+        "accuracy": 0.999,
+        "balanced_accuracy": 0.5,
+        "f1": 0.0,
+        "cohen_kappa": 0.0,
+        "true_positives": 0.0,
+        "false_positives": 0.0,
+        "false_negatives": 1.0,
+        "true_negatives": 999.0,
+        "n": 1000.0,
+        "prevalence": 0.001
+      },
+      "n_true_actionable": 80,
+      "n_true_high_urgency": 9,
+      "n_true_urgent": 1,
+      "actionable": {
+        "support": 80.0,
+        "sensitivity": 0.15,
+        "specificity": 0.9923913043478261,
+        "ppv": 0.631578947368421,
+        "npv": 0.9306829765545361,
+        "f1": 0.24242424242424243,
+        "prevalence": 0.08
+      }
+    },
+    "Llama-4 Scout/calibrate": {
+      "model": "Llama-4 Scout",
+      "configuration": "calibrate",
+      "n": 1000,
+      "true_distribution": {
+        "none": 757.0,
+        "non_actionable": 124.0,
+        "uncertain": 39.0,
+        "actionable": 80.0
+      },
+      "pred_distribution": {
+        "none": 795.0,
+        "non_actionable": 92.0,
+        "uncertain": 57.0,
+        "actionable": 56.0
+      },
+      "kappa_nominal": 0.673747743860406,
+      "kappa_linear_weighted": 0.7354948303934075,
+      "kappa_quadratic_weighted": 0.7924177572546646,
+      "primary_kappa": 0.7354948303934075,
+      "kappa_weighting_note": "Primary reported \u03ba is linear-weighted Cohen's \u03ba on the ordinal scale none < non_actionable < uncertain < actionable. Quadratic \u03ba also reported. Unweighted (nominal) \u03ba is shown for completeness but is not appropriate as the primary ordinal endpoint.",
+      "actionable_sensitivity": 0.525,
+      "actionable_specificity": 0.9847826086956522,
+      "high_urgency_binary": {
+        "sensitivity": 0.7777777777777778,
+        "specificity": 0.987891019172553,
+        "positive_predictive_value": 0.3684210526315789,
+        "negative_predictive_value": 0.9979612640163099,
+        "accuracy": 0.986,
+        "balanced_accuracy": 0.8828343984751654,
+        "f1": 0.5,
+        "cohen_kappa": 0.4938173403716827,
+        "true_positives": 7.0,
+        "false_positives": 12.0,
+        "false_negatives": 2.0,
+        "true_negatives": 979.0,
+        "n": 1000.0,
+        "prevalence": 0.009
+      },
+      "urgent_only_binary": {
+        "sensitivity": 0.0,
+        "specificity": 0.997997997997998,
+        "positive_predictive_value": 0.0,
+        "negative_predictive_value": 0.998997995991984,
+        "accuracy": 0.997,
+        "balanced_accuracy": 0.498998998998999,
+        "f1": 0.0,
+        "cohen_kappa": -0.001335113484646211,
+        "true_positives": 0.0,
+        "false_positives": 2.0,
+        "false_negatives": 1.0,
+        "true_negatives": 997.0,
+        "n": 1000.0,
+        "prevalence": 0.001
+      },
+      "n_true_actionable": 80,
+      "n_true_high_urgency": 9,
+      "n_true_urgent": 1,
+      "actionable": {
+        "support": 80.0,
+        "sensitivity": 0.525,
+        "specificity": 0.9847826086956522,
+        "ppv": 0.75,
+        "npv": 0.9597457627118644,
+        "f1": 0.6176470588235294,
+        "prevalence": 0.08
+      }
+    },
+    "Llama-4 Scout/full_hybrid": {
+      "model": "Llama-4 Scout",
+      "configuration": "full_hybrid",
+      "n": 1000,
+      "true_distribution": {
+        "none": 757.0,
+        "non_actionable": 124.0,
+        "uncertain": 39.0,
+        "actionable": 80.0
+      },
+      "pred_distribution": {
+        "none": 750.0,
+        "non_actionable": 102.0,
+        "uncertain": 60.0,
+        "actionable": 88.0
+      },
+      "kappa_nominal": 0.8781147768769105,
+      "kappa_linear_weighted": 0.9101949825408481,
+      "kappa_quadratic_weighted": 0.9366337005449502,
+      "primary_kappa": 0.9101949825408481,
+      "kappa_weighting_note": "Primary reported \u03ba is linear-weighted Cohen's \u03ba on the ordinal scale none < non_actionable < uncertain < actionable. Quadratic \u03ba also reported. Unweighted (nominal) \u03ba is shown for completeness but is not appropriate as the primary ordinal endpoint.",
+      "actionable_sensitivity": 0.925,
+      "actionable_specificity": 0.9847826086956522,
+      "high_urgency_binary": {
+        "sensitivity": 1.0,
+        "specificity": 0.987891019172553,
+        "positive_predictive_value": 0.42857142857142855,
+        "negative_predictive_value": 1.0,
+        "accuracy": 0.988,
+        "balanced_accuracy": 0.9939455095862765,
+        "f1": 0.6,
+        "cohen_kappa": 0.594895685639052,
+        "true_positives": 9.0,
+        "false_positives": 12.0,
+        "false_negatives": 0.0,
+        "true_negatives": 979.0,
+        "n": 1000.0,
+        "prevalence": 0.009
+      },
+      "urgent_only_binary": {
+        "sensitivity": 1.0,
+        "specificity": 0.997997997997998,
+        "positive_predictive_value": 0.3333333333333333,
+        "negative_predictive_value": 1.0,
+        "accuracy": 0.998,
+        "balanced_accuracy": 0.998998998998999,
+        "f1": 0.5,
+        "cohen_kappa": 0.4992488733099649,
+        "true_positives": 1.0,
+        "false_positives": 2.0,
+        "false_negatives": 0.0,
+        "true_negatives": 997.0,
+        "n": 1000.0,
+        "prevalence": 0.001
+      },
+      "n_true_actionable": 80,
+      "n_true_high_urgency": 9,
+      "n_true_urgent": 1,
+      "actionable": {
+        "support": 80.0,
+        "sensitivity": 0.925,
+        "specificity": 0.9847826086956522,
+        "ppv": 0.8409090909090909,
+        "npv": 0.993421052631579,
+        "f1": 0.8809523809523809,
+        "prevalence": 0.08
+      }
+    },
+    "Qwen3.6-35B/llm_only": {
+      "model": "Qwen3.6-35B",
+      "configuration": "llm_only",
+      "n": 1000,
+      "true_distribution": {
+        "none": 757.0,
+        "non_actionable": 124.0,
+        "uncertain": 39.0,
+        "actionable": 80.0
+      },
+      "pred_distribution": {
+        "none": 777.0,
+        "non_actionable": 178.0,
+        "uncertain": 13.0,
+        "actionable": 32.0
+      },
+      "kappa_nominal": 0.6586253982703687,
+      "kappa_linear_weighted": 0.6795037812079145,
+      "kappa_quadratic_weighted": 0.7302043422733078,
+      "primary_kappa": 0.6795037812079145,
+      "kappa_weighting_note": "Primary reported \u03ba is linear-weighted Cohen's \u03ba on the ordinal scale none < non_actionable < uncertain < actionable. Quadratic \u03ba also reported. Unweighted (nominal) \u03ba is shown for completeness but is not appropriate as the primary ordinal endpoint.",
+      "actionable_sensitivity": 0.275,
+      "actionable_specificity": 0.9891304347826086,
+      "high_urgency_binary": {
+        "sensitivity": 0.2222222222222222,
+        "specificity": 0.9858728557013118,
+        "positive_predictive_value": 0.125,
+        "negative_predictive_value": 0.9928861788617886,
+        "accuracy": 0.979,
+        "balanced_accuracy": 0.604047538961767,
+        "f1": 0.16,
+        "cohen_kappa": 0.1502104240854646,
+        "true_positives": 2.0,
+        "false_positives": 14.0,
+        "false_negatives": 7.0,
+        "true_negatives": 977.0,
+        "n": 1000.0,
+        "prevalence": 0.009
+      },
+      "urgent_only_binary": {
+        "sensitivity": 0.0,
+        "specificity": 1.0,
+        "positive_predictive_value": null,
+        "negative_predictive_value": 0.999,
+        "accuracy": 0.999,
+        "balanced_accuracy": 0.5,
+        "f1": 0.0,
+        "cohen_kappa": 0.0,
+        "true_positives": 0.0,
+        "false_positives": 0.0,
+        "false_negatives": 1.0,
+        "true_negatives": 999.0,
+        "n": 1000.0,
+        "prevalence": 0.001
+      },
+      "n_true_actionable": 80,
+      "n_true_high_urgency": 9,
+      "n_true_urgent": 1,
+      "actionable": {
+        "support": 80.0,
+        "sensitivity": 0.275,
+        "specificity": 0.9891304347826086,
+        "ppv": 0.6875,
+        "npv": 0.9400826446280992,
+        "f1": 0.39285714285714285,
+        "prevalence": 0.08
+      }
+    },
+    "Qwen3.6-35B/calibrate": {
+      "model": "Qwen3.6-35B",
+      "configuration": "calibrate",
+      "n": 1000,
+      "true_distribution": {
+        "none": 757.0,
+        "non_actionable": 124.0,
+        "uncertain": 39.0,
+        "actionable": 80.0
+      },
+      "pred_distribution": {
+        "none": 777.0,
+        "non_actionable": 91.0,
+        "uncertain": 76.0,
+        "actionable": 56.0
+      },
+      "kappa_nominal": 0.6870889862955152,
+      "kappa_linear_weighted": 0.765706869474587,
+      "kappa_quadratic_weighted": 0.8313446325917706,
+      "primary_kappa": 0.765706869474587,
+      "kappa_weighting_note": "Primary reported \u03ba is linear-weighted Cohen's \u03ba on the ordinal scale none < non_actionable < uncertain < actionable. Quadratic \u03ba also reported. Unweighted (nominal) \u03ba is shown for completeness but is not appropriate as the primary ordinal endpoint.",
+      "actionable_sensitivity": 0.55,
+      "actionable_specificity": 0.9869565217391304,
+      "high_urgency_binary": {
+        "sensitivity": 0.7777777777777778,
+        "specificity": 0.9858728557013118,
+        "positive_predictive_value": 0.3333333333333333,
+        "negative_predictive_value": 0.9979570990806946,
+        "accuracy": 0.984,
+        "balanced_accuracy": 0.8818253167395448,
+        "f1": 0.4666666666666667,
+        "cohen_kappa": 0.45986091418540276,
+        "true_positives": 7.0,
+        "false_positives": 14.0,
+        "false_negatives": 2.0,
+        "true_negatives": 977.0,
+        "n": 1000.0,
+        "prevalence": 0.009
+      },
+      "urgent_only_binary": {
+        "sensitivity": 0.0,
+        "specificity": 0.998998998998999,
+        "positive_predictive_value": 0.0,
+        "negative_predictive_value": 0.998998998998999,
+        "accuracy": 0.998,
+        "balanced_accuracy": 0.4994994994994995,
+        "f1": 0.0,
+        "cohen_kappa": -0.0010010010010010895,
+        "true_positives": 0.0,
+        "false_positives": 1.0,
+        "false_negatives": 1.0,
+        "true_negatives": 998.0,
+        "n": 1000.0,
+        "prevalence": 0.001
+      },
+      "n_true_actionable": 80,
+      "n_true_high_urgency": 9,
+      "n_true_urgent": 1,
+      "actionable": {
+        "support": 80.0,
+        "sensitivity": 0.55,
+        "specificity": 0.9869565217391304,
+        "ppv": 0.7857142857142857,
+        "npv": 0.961864406779661,
+        "f1": 0.6470588235294118,
+        "prevalence": 0.08
+      }
+    },
+    "Qwen3.6-35B/full_hybrid": {
+      "model": "Qwen3.6-35B",
+      "configuration": "full_hybrid",
+      "n": 1000,
+      "true_distribution": {
+        "none": 757.0,
+        "non_actionable": 124.0,
+        "uncertain": 39.0,
+        "actionable": 80.0
+      },
+      "pred_distribution": {
+        "none": 747.0,
+        "non_actionable": 92.0,
+        "uncertain": 72.0,
+        "actionable": 89.0
+      },
+      "kappa_nominal": 0.8572068201895036,
+      "kappa_linear_weighted": 0.9051312307988211,
+      "kappa_quadratic_weighted": 0.9406800940825226,
+      "primary_kappa": 0.9051312307988211,
+      "kappa_weighting_note": "Primary reported \u03ba is linear-weighted Cohen's \u03ba on the ordinal scale none < non_actionable < uncertain < actionable. Quadratic \u03ba also reported. Unweighted (nominal) \u03ba is shown for completeness but is not appropriate as the primary ordinal endpoint.",
+      "actionable_sensitivity": 0.9625,
+      "actionable_specificity": 0.9869565217391304,
+      "high_urgency_binary": {
+        "sensitivity": 1.0,
+        "specificity": 0.9858728557013118,
+        "positive_predictive_value": 0.391304347826087,
+        "negative_predictive_value": 1.0,
+        "accuracy": 0.986,
+        "balanced_accuracy": 0.9929364278506558,
+        "f1": 0.5625,
+        "cohen_kappa": 0.5567656556702336,
+        "true_positives": 9.0,
+        "false_positives": 14.0,
+        "false_negatives": 0.0,
+        "true_negatives": 977.0,
+        "n": 1000.0,
+        "prevalence": 0.009
+      },
+      "urgent_only_binary": {
+        "sensitivity": 1.0,
+        "specificity": 0.998998998998999,
+        "positive_predictive_value": 0.5,
+        "negative_predictive_value": 1.0,
+        "accuracy": 0.999,
+        "balanced_accuracy": 0.9994994994994995,
+        "f1": 0.6666666666666666,
+        "cohen_kappa": 0.6662216288384513,
+        "true_positives": 1.0,
+        "false_positives": 1.0,
+        "false_negatives": 0.0,
+        "true_negatives": 998.0,
+        "n": 1000.0,
+        "prevalence": 0.001
+      },
+      "n_true_actionable": 80,
+      "n_true_high_urgency": 9,
+      "n_true_urgent": 1,
+      "actionable": {
+        "support": 80.0,
+        "sensitivity": 0.9625,
+        "specificity": 0.9869565217391304,
+        "ppv": 0.8651685393258427,
+        "npv": 0.9967069154774972,
+        "f1": 0.9112426035502958,
+        "prevalence": 0.08
+      }
+    },
+    "Mistral-Small-3.2/llm_only": {
+      "model": "Mistral-Small-3.2",
+      "configuration": "llm_only",
+      "n": 1000,
+      "true_distribution": {
+        "none": 757.0,
+        "non_actionable": 124.0,
+        "uncertain": 39.0,
+        "actionable": 80.0
+      },
+      "pred_distribution": {
+        "none": 746.0,
+        "non_actionable": 149.0,
+        "uncertain": 82.0,
+        "actionable": 23.0
+      },
+      "kappa_nominal": 0.5725706958354786,
+      "kappa_linear_weighted": 0.6279130685860399,
+      "kappa_quadratic_weighted": 0.6939788102609201,
+      "primary_kappa": 0.6279130685860399,
+      "kappa_weighting_note": "Primary reported \u03ba is linear-weighted Cohen's \u03ba on the ordinal scale none < non_actionable < uncertain < actionable. Quadratic \u03ba also reported. Unweighted (nominal) \u03ba is shown for completeness but is not appropriate as the primary ordinal endpoint.",
+      "actionable_sensitivity": 0.1625,
+      "actionable_specificity": 0.9891304347826086,
+      "high_urgency_binary": {
+        "sensitivity": 1.0,
+        "specificity": 0.9253279515640767,
+        "positive_predictive_value": 0.10843373493975904,
+        "negative_predictive_value": 1.0,
+        "accuracy": 0.926,
+        "balanced_accuracy": 0.9626639757820383,
+        "f1": 0.1956521739130435,
+        "cohen_kappa": 0.1823746491945285,
+        "true_positives": 9.0,
+        "false_positives": 74.0,
+        "false_negatives": 0.0,
+        "true_negatives": 917.0,
+        "n": 1000.0,
+        "prevalence": 0.009
+      },
+      "urgent_only_binary": {
+        "sensitivity": 0.0,
+        "specificity": 0.994994994994995,
+        "positive_predictive_value": 0.0,
+        "negative_predictive_value": 0.9989949748743718,
+        "accuracy": 0.994,
+        "balanced_accuracy": 0.4974974974974975,
+        "f1": 0.0,
+        "cohen_kappa": -0.0016694490818029983,
+        "true_positives": 0.0,
+        "false_positives": 5.0,
+        "false_negatives": 1.0,
+        "true_negatives": 994.0,
+        "n": 1000.0,
+        "prevalence": 0.001
+      },
+      "n_true_actionable": 80,
+      "n_true_high_urgency": 9,
+      "n_true_urgent": 1,
+      "actionable": {
+        "support": 80.0,
+        "sensitivity": 0.1625,
+        "specificity": 0.9891304347826086,
+        "ppv": 0.5652173913043478,
+        "npv": 0.9314227226202662,
+        "f1": 0.2524271844660194,
+        "prevalence": 0.08
+      }
+    },
+    "Mistral-Small-3.2/calibrate": {
+      "model": "Mistral-Small-3.2",
+      "configuration": "calibrate",
+      "n": 1000,
+      "true_distribution": {
+        "none": 757.0,
+        "non_actionable": 124.0,
+        "uncertain": 39.0,
+        "actionable": 80.0
+      },
+      "pred_distribution": {
+        "none": 746.0,
+        "non_actionable": 164.0,
+        "uncertain": 38.0,
+        "actionable": 52.0
+      },
+      "kappa_nominal": 0.5993159052040069,
+      "kappa_linear_weighted": 0.6174154809467067,
+      "kappa_quadratic_weighted": 0.6554936900949554,
+      "primary_kappa": 0.6174154809467067,
+      "kappa_weighting_note": "Primary reported \u03ba is linear-weighted Cohen's \u03ba on the ordinal scale none < non_actionable < uncertain < actionable. Quadratic \u03ba also reported. Unweighted (nominal) \u03ba is shown for completeness but is not appropriate as the primary ordinal endpoint.",
+      "actionable_sensitivity": 0.325,
+      "actionable_specificity": 0.9717391304347827,
+      "high_urgency_binary": {
+        "sensitivity": 0.5555555555555556,
+        "specificity": 0.987891019172553,
+        "positive_predictive_value": 0.29411764705882354,
+        "negative_predictive_value": 0.9959308240081384,
+        "accuracy": 0.984,
+        "balanced_accuracy": 0.7717232873640543,
+        "f1": 0.38461538461538464,
+        "cohen_kappa": 0.37728652603720725,
+        "true_positives": 5.0,
+        "false_positives": 12.0,
+        "false_negatives": 4.0,
+        "true_negatives": 979.0,
+        "n": 1000.0,
+        "prevalence": 0.009
+      },
+      "urgent_only_binary": {
+        "sensitivity": 0.0,
+        "specificity": 1.0,
+        "positive_predictive_value": null,
+        "negative_predictive_value": 0.999,
+        "accuracy": 0.999,
+        "balanced_accuracy": 0.5,
+        "f1": 0.0,
+        "cohen_kappa": 0.0,
+        "true_positives": 0.0,
+        "false_positives": 0.0,
+        "false_negatives": 1.0,
+        "true_negatives": 999.0,
+        "n": 1000.0,
+        "prevalence": 0.001
+      },
+      "n_true_actionable": 80,
+      "n_true_high_urgency": 9,
+      "n_true_urgent": 1,
+      "actionable": {
+        "support": 80.0,
+        "sensitivity": 0.325,
+        "specificity": 0.9717391304347827,
+        "ppv": 0.5,
+        "npv": 0.9430379746835443,
+        "f1": 0.3939393939393939,
+        "prevalence": 0.08
+      }
+    },
+    "Mistral-Small-3.2/full_hybrid": {
+      "model": "Mistral-Small-3.2",
+      "configuration": "full_hybrid",
+      "n": 1000,
+      "true_distribution": {
+        "none": 757.0,
+        "non_actionable": 124.0,
+        "uncertain": 39.0,
+        "actionable": 80.0
+      },
+      "pred_distribution": {
+        "none": 721.0,
+        "non_actionable": 148.0,
+        "uncertain": 43.0,
+        "actionable": 88.0
+      },
+      "kappa_nominal": 0.7635402473228542,
+      "kappa_linear_weighted": 0.7892374082524093,
+      "kappa_quadratic_weighted": 0.8169602480726991,
+      "primary_kappa": 0.7892374082524093,
+      "kappa_weighting_note": "Primary reported \u03ba is linear-weighted Cohen's \u03ba on the ordinal scale none < non_actionable < uncertain < actionable. Quadratic \u03ba also reported. Unweighted (nominal) \u03ba is shown for completeness but is not appropriate as the primary ordinal endpoint.",
+      "actionable_sensitivity": 0.775,
+      "actionable_specificity": 0.9717391304347827,
+      "high_urgency_binary": {
+        "sensitivity": 1.0,
+        "specificity": 0.987891019172553,
+        "positive_predictive_value": 0.42857142857142855,
+        "negative_predictive_value": 1.0,
+        "accuracy": 0.988,
+        "balanced_accuracy": 0.9939455095862765,
+        "f1": 0.6,
+        "cohen_kappa": 0.594895685639052,
+        "true_positives": 9.0,
+        "false_positives": 12.0,
+        "false_negatives": 0.0,
+        "true_negatives": 979.0,
+        "n": 1000.0,
+        "prevalence": 0.009
+      },
+      "urgent_only_binary": {
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "positive_predictive_value": 1.0,
+        "negative_predictive_value": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "f1": 1.0,
+        "cohen_kappa": 1.0,
+        "true_positives": 1.0,
+        "false_positives": 0.0,
+        "false_negatives": 0.0,
+        "true_negatives": 999.0,
+        "n": 1000.0,
+        "prevalence": 0.001
+      },
+      "n_true_actionable": 80,
+      "n_true_high_urgency": 9,
+      "n_true_urgent": 1,
+      "actionable": {
+        "support": 80.0,
+        "sensitivity": 0.775,
+        "specificity": 0.9717391304347827,
+        "ppv": 0.7045454545454546,
+        "npv": 0.9802631578947368,
+        "f1": 0.7380952380952381,
+        "prevalence": 0.08
+      }
+    }
+  },
+  "directional": {
+    "Llama-4 Scout/llm_only": {
+      "model": "Llama-4 Scout",
+      "configuration": "llm_only",
+      "n": 1000,
+      "exact_agreement": 844,
+      "exact_rate": 0.844,
+      "undercalls": 126,
+      "overcalls": 30,
+      "undercall_rate": 0.126,
+      "overcall_rate": 0.03,
+      "undercalls_off_by_ge2": 46,
+      "overcalls_off_by_ge2": 6,
+      "mean_signed_severity_bias": -0.143,
+      "delta_count_by_signed_rank": {
+        "-3": 7,
+        "-2": 39,
+        "-1": 80,
+        "0": 844,
+        "1": 24,
+        "2": 6
+      },
+      "n_true_actionable": 80,
+      "actionable_not_called_actionable": 68,
+      "actionable_sensitivity": 0.15000000000000002,
+      "actionable_collapsed_to_none": 7,
+      "operating_preference": "Prefer overcalls to undercalls for safety-critical incidental findings: underrating severity is a potential missed cancer; overrating drives cost and anxiety. Deterministic ACR recalibration is included specifically to reduce LLM severity undercalls."
+    },
+    "Llama-4 Scout/calibrate": {
+      "model": "Llama-4 Scout",
+      "configuration": "calibrate",
+      "n": 1000,
+      "exact_agreement": 876,
+      "exact_rate": 0.876,
+      "undercalls": 82,
+      "overcalls": 42,
+      "undercall_rate": 0.082,
+      "overcall_rate": 0.042,
+      "undercalls_off_by_ge2": 35,
+      "overcalls_off_by_ge2": 12,
+      "mean_signed_severity_bias": -0.068,
+      "delta_count_by_signed_rank": {
+        "-3": 7,
+        "-2": 28,
+        "-1": 47,
+        "0": 876,
+        "1": 30,
+        "2": 10,
+        "3": 2
+      },
+      "n_true_actionable": 80,
+      "actionable_not_called_actionable": 38,
+      "actionable_sensitivity": 0.525,
+      "actionable_collapsed_to_none": 7,
+      "operating_preference": "Prefer overcalls to undercalls for safety-critical incidental findings: underrating severity is a potential missed cancer; overrating drives cost and anxiety. Deterministic ACR recalibration is included specifically to reduce LLM severity undercalls."
+    },
+    "Llama-4 Scout/full_hybrid": {
+      "model": "Llama-4 Scout",
+      "configuration": "full_hybrid",
+      "n": 1000,
+      "exact_agreement": 950,
+      "exact_rate": 0.95,
+      "undercalls": 8,
+      "overcalls": 42,
+      "undercall_rate": 0.008,
+      "overcall_rate": 0.042,
+      "undercalls_off_by_ge2": 4,
+      "overcalls_off_by_ge2": 12,
+      "mean_signed_severity_bias": 0.044,
+      "delta_count_by_signed_rank": {
+        "-2": 4,
+        "-1": 4,
+        "0": 950,
+        "1": 30,
+        "2": 10,
+        "3": 2
+      },
+      "n_true_actionable": 80,
+      "actionable_not_called_actionable": 6,
+      "actionable_sensitivity": 0.925,
+      "actionable_collapsed_to_none": 0,
+      "operating_preference": "Prefer overcalls to undercalls for safety-critical incidental findings: underrating severity is a potential missed cancer; overrating drives cost and anxiety. Deterministic ACR recalibration is included specifically to reduce LLM severity undercalls."
+    },
+    "Qwen3.6-35B/llm_only": {
+      "model": "Qwen3.6-35B",
+      "configuration": "llm_only",
+      "n": 1000,
+      "exact_agreement": 868,
+      "exact_rate": 0.868,
+      "undercalls": 108,
+      "overcalls": 24,
+      "undercall_rate": 0.108,
+      "overcall_rate": 0.024,
+      "undercalls_off_by_ge2": 58,
+      "overcalls_off_by_ge2": 4,
+      "mean_signed_severity_bias": -0.142,
+      "delta_count_by_signed_rank": {
+        "-3": 4,
+        "-2": 54,
+        "-1": 50,
+        "0": 868,
+        "1": 20,
+        "2": 4
+      },
+      "n_true_actionable": 80,
+      "actionable_not_called_actionable": 58,
+      "actionable_sensitivity": 0.275,
+      "actionable_collapsed_to_none": 4,
+      "operating_preference": "Prefer overcalls to undercalls for safety-critical incidental findings: underrating severity is a potential missed cancer; overrating drives cost and anxiety. Deterministic ACR recalibration is included specifically to reduce LLM severity undercalls."
+    },
+    "Qwen3.6-35B/calibrate": {
+      "model": "Qwen3.6-35B",
+      "configuration": "calibrate",
+      "n": 1000,
+      "exact_agreement": 877,
+      "exact_rate": 0.877,
+      "undercalls": 67,
+      "overcalls": 56,
+      "undercall_rate": 0.067,
+      "overcall_rate": 0.056,
+      "undercalls_off_by_ge2": 27,
+      "overcalls_off_by_ge2": 10,
+      "mean_signed_severity_bias": -0.031,
+      "delta_count_by_signed_rank": {
+        "-3": 4,
+        "-2": 23,
+        "-1": 40,
+        "0": 877,
+        "1": 46,
+        "2": 9,
+        "3": 1
+      },
+      "n_true_actionable": 80,
+      "actionable_not_called_actionable": 36,
+      "actionable_sensitivity": 0.55,
+      "actionable_collapsed_to_none": 4,
+      "operating_preference": "Prefer overcalls to undercalls for safety-critical incidental findings: underrating severity is a potential missed cancer; overrating drives cost and anxiety. Deterministic ACR recalibration is included specifically to reduce LLM severity undercalls."
+    },
+    "Qwen3.6-35B/full_hybrid": {
+      "model": "Qwen3.6-35B",
+      "configuration": "full_hybrid",
+      "n": 1000,
+      "exact_agreement": 941,
+      "exact_rate": 0.941,
+      "undercalls": 3,
+      "overcalls": 56,
+      "undercall_rate": 0.003,
+      "overcall_rate": 0.056,
+      "undercalls_off_by_ge2": 3,
+      "overcalls_off_by_ge2": 10,
+      "mean_signed_severity_bias": 0.061,
+      "delta_count_by_signed_rank": {
+        "-2": 3,
+        "0": 941,
+        "1": 46,
+        "2": 9,
+        "3": 1
+      },
+      "n_true_actionable": 80,
+      "actionable_not_called_actionable": 3,
+      "actionable_sensitivity": 0.9625,
+      "actionable_collapsed_to_none": 0,
+      "operating_preference": "Prefer overcalls to undercalls for safety-critical incidental findings: underrating severity is a potential missed cancer; overrating drives cost and anxiety. Deterministic ACR recalibration is included specifically to reduce LLM severity undercalls."
+    },
+    "Mistral-Small-3.2/llm_only": {
+      "model": "Mistral-Small-3.2",
+      "configuration": "llm_only",
+      "n": 1000,
+      "exact_agreement": 824,
+      "exact_rate": 0.824,
+      "undercalls": 108,
+      "overcalls": 68,
+      "undercall_rate": 0.108,
+      "overcall_rate": 0.068,
+      "undercalls_off_by_ge2": 43,
+      "overcalls_off_by_ge2": 24,
+      "mean_signed_severity_bias": -0.06,
+      "delta_count_by_signed_rank": {
+        "-3": 4,
+        "-2": 39,
+        "-1": 65,
+        "0": 824,
+        "1": 44,
+        "2": 21,
+        "3": 3
+      },
+      "n_true_actionable": 80,
+      "actionable_not_called_actionable": 67,
+      "actionable_sensitivity": 0.16249999999999998,
+      "actionable_collapsed_to_none": 4,
+      "operating_preference": "Prefer overcalls to undercalls for safety-critical incidental findings: underrating severity is a potential missed cancer; overrating drives cost and anxiety. Deterministic ACR recalibration is included specifically to reduce LLM severity undercalls."
+    },
+    "Mistral-Small-3.2/calibrate": {
+      "model": "Mistral-Small-3.2",
+      "configuration": "calibrate",
+      "n": 1000,
+      "exact_agreement": 836,
+      "exact_rate": 0.836,
+      "undercalls": 97,
+      "overcalls": 67,
+      "undercall_rate": 0.097,
+      "overcall_rate": 0.067,
+      "undercalls_off_by_ge2": 53,
+      "overcalls_off_by_ge2": 27,
+      "mean_signed_severity_bias": -0.046,
+      "delta_count_by_signed_rank": {
+        "-3": 4,
+        "-2": 49,
+        "-1": 44,
+        "0": 836,
+        "1": 40,
+        "2": 13,
+        "3": 14
+      },
+      "n_true_actionable": 80,
+      "actionable_not_called_actionable": 54,
+      "actionable_sensitivity": 0.32499999999999996,
+      "actionable_collapsed_to_none": 4,
+      "operating_preference": "Prefer overcalls to undercalls for safety-critical incidental findings: underrating severity is a potential missed cancer; overrating drives cost and anxiety. Deterministic ACR recalibration is included specifically to reduce LLM severity undercalls."
+    },
+    "Mistral-Small-3.2/full_hybrid": {
+      "model": "Mistral-Small-3.2",
+      "configuration": "full_hybrid",
+      "n": 1000,
+      "exact_agreement": 899,
+      "exact_rate": 0.899,
+      "undercalls": 34,
+      "overcalls": 67,
+      "undercall_rate": 0.034,
+      "overcall_rate": 0.067,
+      "undercalls_off_by_ge2": 18,
+      "overcalls_off_by_ge2": 27,
+      "mean_signed_severity_bias": 0.056,
+      "delta_count_by_signed_rank": {
+        "-2": 18,
+        "-1": 16,
+        "0": 899,
+        "1": 40,
+        "2": 13,
+        "3": 14
+      },
+      "n_true_actionable": 80,
+      "actionable_not_called_actionable": 18,
+      "actionable_sensitivity": 0.775,
+      "actionable_collapsed_to_none": 0,
+      "operating_preference": "Prefer overcalls to undercalls for safety-critical incidental findings: underrating severity is a potential missed cancer; overrating drives cost and anxiety. Deterministic ACR recalibration is included specifically to reduce LLM severity undercalls."
+    }
+  },
+  "oracle": {
+    "Llama-4 Scout": {
+      "model": "Llama-4 Scout",
+      "n": 1000,
+      "arms": {
+        "llm_only": {
+          "followup_needed": {
+            "sensitivity": 0.44537815126050423,
+            "specificity": 0.9750283768444948,
+            "positive_predictive_value": 0.7066666666666667,
+            "negative_predictive_value": 0.9286486486486486,
+            "accuracy": 0.912,
+            "balanced_accuracy": 0.7102032640524996,
+            "f1": 0.5463917525773195,
+            "cohen_kappa": 0.5004257734885041,
+            "true_positives": 53.0,
+            "false_positives": 22.0,
+            "false_negatives": 66.0,
+            "true_negatives": 859.0,
+            "n": 1000.0,
+            "prevalence": 0.119
+          },
+          "orchestrate_guideline_kappa": 0.38122979525862066,
+          "orchestrate_modality_kappa": 0.36040479270008685,
+          "end_to_end_errors": {
+            "missed_necessary_followup": 66,
+            "unnecessary_followup": 22,
+            "wrong_modality": 13,
+            "wrong_guideline_pathway": 19,
+            "complete_recommendation_agree_organ": 27,
+            "wrong_interval": 11
+          },
+          "capture_driven_errors": {
+            "missed_necessary_followup": 66,
+            "unnecessary_followup": 22,
+            "wrong_modality": 7,
+            "wrong_interval": 6,
+            "wrong_guideline_pathway": 7
+          },
+          "despite_capture_errors": {
+            "wrong_modality": 6,
+            "wrong_guideline_pathway": 12,
+            "wrong_interval": 5
+          }
+        },
+        "full_hybrid": {
+          "followup_needed": {
+            "sensitivity": 0.9495798319327731,
+            "specificity": 0.960272417707151,
+            "positive_predictive_value": 0.7635135135135135,
+            "negative_predictive_value": 0.9929577464788732,
+            "accuracy": 0.959,
+            "balanced_accuracy": 0.9549261248199621,
+            "f1": 0.846441947565543,
+            "cohen_kappa": 0.8231050669612039,
+            "true_positives": 113.0,
+            "false_positives": 35.0,
+            "false_negatives": 6.0,
+            "true_negatives": 846.0,
+            "n": 1000.0,
+            "prevalence": 0.119
+          },
+          "orchestrate_guideline_kappa": 0.7978742226945652,
+          "orchestrate_modality_kappa": 0.7263687037438732,
+          "end_to_end_errors": {
+            "complete_recommendation_agree_organ": 120,
+            "wrong_guideline_pathway": 20,
+            "unnecessary_followup": 35,
+            "missed_necessary_followup": 6,
+            "wrong_modality": 12,
+            "wrong_interval": 10
+          },
+          "capture_driven_errors": {
+            "unnecessary_followup": 35,
+            "missed_necessary_followup": 6,
+            "wrong_modality": 2,
+            "wrong_interval": 2,
+            "wrong_guideline_pathway": 3
+          },
+          "despite_capture_errors": {
+            "wrong_guideline_pathway": 17,
+            "wrong_modality": 10,
+            "wrong_interval": 8
+          }
+        },
+        "oracle_capture": {
+          "followup_needed": {
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "positive_predictive_value": 1.0,
+            "negative_predictive_value": 1.0,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "f1": 1.0,
+            "cohen_kappa": 1.0,
+            "true_positives": 119.0,
+            "false_positives": 0.0,
+            "false_negatives": 0.0,
+            "true_negatives": 881.0,
+            "n": 1000.0,
+            "prevalence": 0.119
+          },
+          "orchestrate_guideline_kappa": 1.0,
+          "orchestrate_modality_kappa": 1.0,
+          "end_to_end_errors": {
+            "complete_recommendation_agree_organ": 150
+          },
+          "capture_driven_errors": {},
+          "despite_capture_errors": {}
+        }
+      },
+      "interpretation": "Oracle Capture uses the ACR reference Capture output then the shared Orchestrate engine. Near-ceiling oracle concordance implies remaining end-to-end error is extraction (Capture), not guideline mapping (Orchestrate).",
+      "capture_attributable_missed_followups": {
+        "llm_only_fn": 66.0,
+        "hybrid_fn": 6.0,
+        "oracle_fn": 0,
+        "resolved_by_hybrid_vs_llm": 60.0,
+        "remaining_vs_oracle": 6.0
+      },
+      "conditional_on_matching_capture_organs": {
+        "n_reports": 935,
+        "modality_agreement_rate": 0.983957219251337,
+        "timeframe_agreement_rate": 0.9871657754010695
+      }
+    },
+    "Qwen3.6-35B": {
+      "model": "Qwen3.6-35B",
+      "n": 1000,
+      "arms": {
+        "llm_only": {
+          "followup_needed": {
+            "sensitivity": 0.31092436974789917,
+            "specificity": 0.9909194097616345,
+            "positive_predictive_value": 0.8222222222222222,
+            "negative_predictive_value": 0.9141361256544502,
+            "accuracy": 0.91,
+            "balanced_accuracy": 0.6509218897547668,
+            "f1": 0.45121951219512196,
+            "cohen_kappa": 0.4128775523517515,
+            "true_positives": 37.0,
+            "false_positives": 8.0,
+            "false_negatives": 82.0,
+            "true_negatives": 873.0,
+            "n": 1000.0,
+            "prevalence": 0.119
+          },
+          "orchestrate_guideline_kappa": 0.34571371475349655,
+          "orchestrate_modality_kappa": 0.3370990472230998,
+          "end_to_end_errors": {
+            "missed_necessary_followup": 82,
+            "wrong_modality": 12,
+            "wrong_interval": 12,
+            "wrong_guideline_pathway": 21,
+            "complete_recommendation_agree_organ": 14,
+            "unnecessary_followup": 8
+          },
+          "capture_driven_errors": {
+            "missed_necessary_followup": 82,
+            "unnecessary_followup": 8,
+            "wrong_modality": 5,
+            "wrong_interval": 5,
+            "wrong_guideline_pathway": 7
+          },
+          "despite_capture_errors": {
+            "wrong_modality": 7,
+            "wrong_interval": 7,
+            "wrong_guideline_pathway": 14
+          }
+        },
+        "full_hybrid": {
+          "followup_needed": {
+            "sensitivity": 0.9747899159663865,
+            "specificity": 0.9489216799091941,
+            "positive_predictive_value": 0.7204968944099379,
+            "negative_predictive_value": 0.9964243146603099,
+            "accuracy": 0.952,
+            "balanced_accuracy": 0.9618557979377903,
+            "f1": 0.8285714285714286,
+            "cohen_kappa": 0.8013919116856034,
+            "true_positives": 116.0,
+            "false_positives": 45.0,
+            "false_negatives": 3.0,
+            "true_negatives": 836.0,
+            "n": 1000.0,
+            "prevalence": 0.119
+          },
+          "orchestrate_guideline_kappa": 0.771098133263909,
+          "orchestrate_modality_kappa": 0.7765397866052118,
+          "end_to_end_errors": {
+            "wrong_modality": 16,
+            "wrong_interval": 14,
+            "wrong_guideline_pathway": 22,
+            "complete_recommendation_agree_organ": 121,
+            "unnecessary_followup": 45,
+            "missed_necessary_followup": 3
+          },
+          "capture_driven_errors": {
+            "unnecessary_followup": 45,
+            "wrong_modality": 4,
+            "wrong_interval": 4,
+            "wrong_guideline_pathway": 4,
+            "missed_necessary_followup": 3
+          },
+          "despite_capture_errors": {
+            "wrong_modality": 12,
+            "wrong_interval": 10,
+            "wrong_guideline_pathway": 18
+          }
+        },
+        "oracle_capture": {
+          "followup_needed": {
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "positive_predictive_value": 1.0,
+            "negative_predictive_value": 1.0,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "f1": 1.0,
+            "cohen_kappa": 1.0,
+            "true_positives": 119.0,
+            "false_positives": 0.0,
+            "false_negatives": 0.0,
+            "true_negatives": 881.0,
+            "n": 1000.0,
+            "prevalence": 0.119
+          },
+          "orchestrate_guideline_kappa": 1.0,
+          "orchestrate_modality_kappa": 1.0,
+          "end_to_end_errors": {
+            "complete_recommendation_agree_organ": 150
+          },
+          "capture_driven_errors": {},
+          "despite_capture_errors": {}
+        }
+      },
+      "interpretation": "Oracle Capture uses the ACR reference Capture output then the shared Orchestrate engine. Near-ceiling oracle concordance implies remaining end-to-end error is extraction (Capture), not guideline mapping (Orchestrate).",
+      "capture_attributable_missed_followups": {
+        "llm_only_fn": 82.0,
+        "hybrid_fn": 3.0,
+        "oracle_fn": 0,
+        "resolved_by_hybrid_vs_llm": 79.0,
+        "remaining_vs_oracle": 3.0
+      },
+      "conditional_on_matching_capture_organs": {
+        "n_reports": 928,
+        "modality_agreement_rate": 0.9838362068965517,
+        "timeframe_agreement_rate": 0.9870689655172413
+      }
+    },
+    "Mistral-Small-3.2": {
+      "model": "Mistral-Small-3.2",
+      "n": 1000,
+      "arms": {
+        "llm_only": {
+          "followup_needed": {
+            "sensitivity": 0.47058823529411764,
+            "specificity": 0.9443813847900113,
+            "positive_predictive_value": 0.5333333333333333,
+            "negative_predictive_value": 0.929608938547486,
+            "accuracy": 0.888,
+            "balanced_accuracy": 0.7074848100420645,
+            "f1": 0.5,
+            "cohen_kappa": 0.4372142103411889,
+            "true_positives": 56.0,
+            "false_positives": 49.0,
+            "false_negatives": 63.0,
+            "true_negatives": 832.0,
+            "n": 1000.0,
+            "prevalence": 0.119
+          },
+          "orchestrate_guideline_kappa": 0.3460582700548541,
+          "orchestrate_modality_kappa": 0.2980050473437095,
+          "end_to_end_errors": {
+            "missed_necessary_followup": 63,
+            "complete_recommendation_agree_organ": 23,
+            "unnecessary_followup": 49,
+            "wrong_guideline_pathway": 27,
+            "wrong_modality": 16,
+            "wrong_interval": 15
+          },
+          "capture_driven_errors": {
+            "missed_necessary_followup": 63,
+            "unnecessary_followup": 49,
+            "wrong_modality": 10,
+            "wrong_interval": 8,
+            "wrong_guideline_pathway": 11
+          },
+          "despite_capture_errors": {
+            "wrong_guideline_pathway": 16,
+            "wrong_modality": 6,
+            "wrong_interval": 7
+          }
+        },
+        "full_hybrid": {
+          "followup_needed": {
+            "sensitivity": 0.7142857142857143,
+            "specificity": 0.9477866061293984,
+            "positive_predictive_value": 0.648854961832061,
+            "negative_predictive_value": 0.9608745684695051,
+            "accuracy": 0.92,
+            "balanced_accuracy": 0.8310361602075563,
+            "f1": 0.68,
+            "cohen_kappa": 0.6344060469239838,
+            "true_positives": 85.0,
+            "false_positives": 46.0,
+            "false_negatives": 34.0,
+            "true_negatives": 835.0,
+            "n": 1000.0,
+            "prevalence": 0.119
+          },
+          "orchestrate_guideline_kappa": 0.6227829220842664,
+          "orchestrate_modality_kappa": 0.5749318801089919,
+          "end_to_end_errors": {
+            "complete_recommendation_agree_organ": 81,
+            "wrong_guideline_pathway": 23,
+            "missed_necessary_followup": 34,
+            "unnecessary_followup": 46,
+            "wrong_modality": 13,
+            "wrong_interval": 12
+          },
+          "capture_driven_errors": {
+            "missed_necessary_followup": 34,
+            "unnecessary_followup": 46,
+            "wrong_modality": 3,
+            "wrong_interval": 2,
+            "wrong_guideline_pathway": 3
+          },
+          "despite_capture_errors": {
+            "wrong_guideline_pathway": 20,
+            "wrong_modality": 10,
+            "wrong_interval": 10
+          }
+        },
+        "oracle_capture": {
+          "followup_needed": {
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "positive_predictive_value": 1.0,
+            "negative_predictive_value": 1.0,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "f1": 1.0,
+            "cohen_kappa": 1.0,
+            "true_positives": 119.0,
+            "false_positives": 0.0,
+            "false_negatives": 0.0,
+            "true_negatives": 881.0,
+            "n": 1000.0,
+            "prevalence": 0.119
+          },
+          "orchestrate_guideline_kappa": 1.0,
+          "orchestrate_modality_kappa": 1.0,
+          "end_to_end_errors": {
+            "complete_recommendation_agree_organ": 150
+          },
+          "capture_driven_errors": {},
+          "despite_capture_errors": {}
+        }
+      },
+      "interpretation": "Oracle Capture uses the ACR reference Capture output then the shared Orchestrate engine. Near-ceiling oracle concordance implies remaining end-to-end error is extraction (Capture), not guideline mapping (Orchestrate).",
+      "capture_attributable_missed_followups": {
+        "llm_only_fn": 63.0,
+        "hybrid_fn": 34.0,
+        "oracle_fn": 0,
+        "resolved_by_hybrid_vs_llm": 29.0,
+        "remaining_vs_oracle": 34.0
+      },
+      "conditional_on_matching_capture_organs": {
+        "n_reports": 898,
+        "modality_agreement_rate": 0.9866369710467706,
+        "timeframe_agreement_rate": 0.987750556792873
+      }
+    }
+  },
+  "recovery": {
+    "Llama-4 Scout": {
+      "model": "Llama-4 Scout",
+      "n_reports": 1000,
+      "n_supplemented_findings": 596,
+      "precision_vs_gold": 1.0,
+      "text_support_precision": 0.15771812080536912,
+      "fabrication_rate_text_audit": 0.8422818791946308,
+      "n_fabricated_or_unsupported": 502,
+      "recovery_recall_of_llm_misses": 1.0,
+      "n_llm_misses_recovered": 598,
+      "n_llm_misses_unrecovered": 0,
+      "note": "Precision vs gold is partly circular (same ACR rule engine). Text-support precision / fabrication rate are the non-circular audit: every supplemented evidence_span checked against report text for presence and non-negation."
+    },
+    "Qwen3.6-35B": {
+      "model": "Qwen3.6-35B",
+      "n_reports": 1000,
+      "n_supplemented_findings": 611,
+      "precision_vs_gold": 1.0,
+      "text_support_precision": 0.16530278232405893,
+      "fabrication_rate_text_audit": 0.8346972176759411,
+      "n_fabricated_or_unsupported": 510,
+      "recovery_recall_of_llm_misses": 1.0,
+      "n_llm_misses_recovered": 613,
+      "n_llm_misses_unrecovered": 0,
+      "note": "Precision vs gold is partly circular (same ACR rule engine). Text-support precision / fabrication rate are the non-circular audit: every supplemented evidence_span checked against report text for presence and non-negation."
+    },
+    "Mistral-Small-3.2": {
+      "model": "Mistral-Small-3.2",
+      "n_reports": 1000,
+      "n_supplemented_findings": 623,
+      "precision_vs_gold": 1.0,
+      "text_support_precision": 0.17335473515248795,
+      "fabrication_rate_text_audit": 0.826645264847512,
+      "n_fabricated_or_unsupported": 515,
+      "recovery_recall_of_llm_misses": 1.0,
+      "n_llm_misses_recovered": 624,
+      "n_llm_misses_unrecovered": 0,
+      "note": "Precision vs gold is partly circular (same ACR rule engine). Text-support precision / fabrication rate are the non-circular audit: every supplemented evidence_span checked against report text for presence and non-negation."
+    }
+  },
+  "stability": {
+    "Qwen3.6-35B": {
+      "model": "Qwen3.6-35B",
+      "n_runs": 2,
+      "n_shared_reports": 100,
+      "run_names": [
+        "run_9199835",
+        "run_9500762"
+      ],
+      "pairwise": [
+        {
+          "run_a": "run_9199835",
+          "run_b": "run_9500762",
+          "n": 100,
+          "presence_kappa": 0.858356940509915,
+          "actionable_kappa": 0.0,
+          "actionability_linear_kappa": 0.5738636363636365,
+          "actionability_exact_agreement": 0.88
+        }
+      ]
+    },
+    "Mistral-Small-3.2": {
+      "model": "Mistral-Small-3.2",
+      "n_runs": 3,
+      "n_shared_reports": 100,
+      "run_names": [
+        "run_9199674",
+        "run_9199835",
+        "run_9500762"
+      ],
+      "pairwise": [
+        {
+          "run_a": "run_9199674",
+          "run_b": "run_9199835",
+          "n": 100,
+          "presence_kappa": 0.8753117206982544,
+          "actionable_kappa": 0.23664122137404575,
+          "actionability_linear_kappa": 0.5926680244399185,
+          "actionability_exact_agreement": 0.82
+        },
+        {
+          "run_a": "run_9199674",
+          "run_b": "run_9500762",
+          "n": 100,
+          "presence_kappa": 0.9111374407582938,
+          "actionable_kappa": 0.23664122137404575,
+          "actionability_linear_kappa": 0.6804090763822308,
+          "actionability_exact_agreement": 0.85
+        },
+        {
+          "run_a": "run_9199835",
+          "run_b": "run_9500762",
+          "n": 100,
+          "presence_kappa": 0.9045801526717557,
+          "actionable_kappa": 1.0,
+          "actionability_linear_kappa": 0.8573466476462197,
+          "actionability_exact_agreement": 0.94
+        }
+      ]
+    }
+  },
+  "abstention_policy": "Refer if any finding has human_review_required OR report min finding confidence < threshold. Safety = actionable/high-urgency sensitivity on auto-accepted cases; dangerous misses = true actionable not predicted and not referred.",
+  "rule_audit": {
+    "n_items": 50,
+    "n_reports": 44,
+    "status": "worksheet_ready"
+  },
+  "kappa_weighting": "Primary reported \u03ba is linear-weighted Cohen's \u03ba on the ordinal scale none < non_actionable < uncertain < actionable. Quadratic \u03ba also reported. Unweighted (nominal) \u03ba is shown for completeness but is not appropriate as the primary ordinal endpoint."
+}

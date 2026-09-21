@@ -1,0 +1,5 @@
+# Exact versions used to compute the paper aggregate metrics (eval host).
+# Python 3.10.15
+numpy==2.2.6
+scikit-learn==1.5.2
+scipy==1.14.1

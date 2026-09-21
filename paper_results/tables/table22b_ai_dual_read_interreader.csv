@@ -1,0 +1,6 @@
+metric,value
+inter_reader_presence_kappa,0.9898662342926632
+inter_reader_actionability_linear_kappa,0.9494332307951625
+inter_reader_followup_kappa,0.9265569917743831
+n_paired,200
+n_disagreements,18

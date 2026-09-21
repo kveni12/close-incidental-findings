@@ -1,0 +1,79 @@
+model,configuration,category,count,rate_or_value
+Llama-4 Scout,llm_only,actionability_adjacent_error,104,0.104
+Llama-4 Scout,llm_only,actionability_distant_error,52,0.052
+Llama-4 Scout,llm_only,false_positive_report,7,0.007
+Llama-4 Scout,llm_only,finding_missed_report,45,0.045
+Llama-4 Scout,llm_only,organ_actionability_overcall,28,0.028
+Llama-4 Scout,llm_only,organ_actionability_undercall,102,0.102
+Llama-4 Scout,llm_only,organ_false_alarm,69,0.069
+Llama-4 Scout,llm_only,organ_miss,364,0.364
+Llama-4 Scout,llm_only,overcall_actionability,30,0.030
+Llama-4 Scout,llm_only,undercall_actionability,126,0.126
+Llama-4 Scout,llm_only,ordinal_distance_exact,844,0.844
+Llama-4 Scout,llm_only,ordinal_distance_off_by_1,104,0.104
+Llama-4 Scout,llm_only,ordinal_distance_off_by_ge_2,52,0.052
+Llama-4 Scout,llm_only,mean_signed_severity_bias,,-0.143
+Llama-4 Scout,full_hybrid,actionability_adjacent_error,34,0.034
+Llama-4 Scout,full_hybrid,actionability_distant_error,16,0.016
+Llama-4 Scout,full_hybrid,false_positive_report,7,0.007
+Llama-4 Scout,full_hybrid,organ_actionability_overcall,32,0.032
+Llama-4 Scout,full_hybrid,organ_actionability_undercall,10,0.010
+Llama-4 Scout,full_hybrid,organ_false_alarm,69,0.069
+Llama-4 Scout,full_hybrid,overcall_actionability,42,0.042
+Llama-4 Scout,full_hybrid,undercall_actionability,8,0.008
+Llama-4 Scout,full_hybrid,ordinal_distance_exact,950,0.950
+Llama-4 Scout,full_hybrid,ordinal_distance_off_by_1,34,0.034
+Llama-4 Scout,full_hybrid,ordinal_distance_off_by_ge_2,16,0.016
+Llama-4 Scout,full_hybrid,mean_signed_severity_bias,,0.044
+Qwen3.6-35B,llm_only,actionability_adjacent_error,70,0.070
+Qwen3.6-35B,llm_only,actionability_distant_error,62,0.062
+Qwen3.6-35B,llm_only,false_positive_report,10,0.010
+Qwen3.6-35B,llm_only,finding_missed_report,30,0.030
+Qwen3.6-35B,llm_only,organ_actionability_overcall,12,0.012
+Qwen3.6-35B,llm_only,organ_actionability_undercall,91,0.091
+Qwen3.6-35B,llm_only,organ_false_alarm,92,0.092
+Qwen3.6-35B,llm_only,organ_miss,369,0.369
+Qwen3.6-35B,llm_only,overcall_actionability,24,0.024
+Qwen3.6-35B,llm_only,undercall_actionability,108,0.108
+Qwen3.6-35B,llm_only,ordinal_distance_exact,868,0.868
+Qwen3.6-35B,llm_only,ordinal_distance_off_by_1,70,0.070
+Qwen3.6-35B,llm_only,ordinal_distance_off_by_ge_2,62,0.062
+Qwen3.6-35B,llm_only,mean_signed_severity_bias,,-0.142
+Qwen3.6-35B,full_hybrid,actionability_adjacent_error,46,0.046
+Qwen3.6-35B,full_hybrid,actionability_distant_error,13,0.013
+Qwen3.6-35B,full_hybrid,false_positive_report,10,0.010
+Qwen3.6-35B,full_hybrid,organ_actionability_overcall,36,0.036
+Qwen3.6-35B,full_hybrid,organ_actionability_undercall,6,0.006
+Qwen3.6-35B,full_hybrid,organ_false_alarm,92,0.092
+Qwen3.6-35B,full_hybrid,overcall_actionability,56,0.056
+Qwen3.6-35B,full_hybrid,undercall_actionability,3,0.003
+Qwen3.6-35B,full_hybrid,ordinal_distance_exact,941,0.941
+Qwen3.6-35B,full_hybrid,ordinal_distance_off_by_1,46,0.046
+Qwen3.6-35B,full_hybrid,ordinal_distance_off_by_ge_2,13,0.013
+Qwen3.6-35B,full_hybrid,mean_signed_severity_bias,,0.061
+Mistral-Small-3.2,llm_only,actionability_adjacent_error,109,0.109
+Mistral-Small-3.2,llm_only,actionability_distant_error,67,0.067
+Mistral-Small-3.2,llm_only,false_positive_report,36,0.036
+Mistral-Small-3.2,llm_only,finding_missed_report,25,0.025
+Mistral-Small-3.2,llm_only,organ_actionability_overcall,25,0.025
+Mistral-Small-3.2,llm_only,organ_actionability_undercall,97,0.097
+Mistral-Small-3.2,llm_only,organ_false_alarm,159,0.159
+Mistral-Small-3.2,llm_only,organ_miss,404,0.404
+Mistral-Small-3.2,llm_only,overcall_actionability,68,0.068
+Mistral-Small-3.2,llm_only,undercall_actionability,108,0.108
+Mistral-Small-3.2,llm_only,ordinal_distance_exact,824,0.824
+Mistral-Small-3.2,llm_only,ordinal_distance_off_by_1,109,0.109
+Mistral-Small-3.2,llm_only,ordinal_distance_off_by_ge_2,67,0.067
+Mistral-Small-3.2,llm_only,mean_signed_severity_bias,,-0.060
+Mistral-Small-3.2,full_hybrid,actionability_adjacent_error,56,0.056
+Mistral-Small-3.2,full_hybrid,actionability_distant_error,45,0.045
+Mistral-Small-3.2,full_hybrid,false_positive_report,36,0.036
+Mistral-Small-3.2,full_hybrid,organ_actionability_overcall,14,0.014
+Mistral-Small-3.2,full_hybrid,organ_actionability_undercall,46,0.046
+Mistral-Small-3.2,full_hybrid,organ_false_alarm,159,0.159
+Mistral-Small-3.2,full_hybrid,overcall_actionability,67,0.067
+Mistral-Small-3.2,full_hybrid,undercall_actionability,34,0.034
+Mistral-Small-3.2,full_hybrid,ordinal_distance_exact,899,0.899
+Mistral-Small-3.2,full_hybrid,ordinal_distance_off_by_1,56,0.056
+Mistral-Small-3.2,full_hybrid,ordinal_distance_off_by_ge_2,45,0.045
+Mistral-Small-3.2,full_hybrid,mean_signed_severity_bias,,0.056

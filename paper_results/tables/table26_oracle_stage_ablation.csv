@@ -1,0 +1,10 @@
+model,arm,followup_sensitivity,followup_specificity,followup_kappa,guideline_kappa,modality_kappa,missed_necessary_followup,unnecessary_followup,missed_fu_capture_driven,missed_fu_despite_matching_capture
+Llama-4 Scout,llm_only,0.445,0.975,0.500,0.381,0.360,66,22,66,
+Llama-4 Scout,full_hybrid,0.950,0.960,0.823,0.798,0.726,6,35,6,
+Llama-4 Scout,oracle_capture,1.000,1.000,1.000,1.000,1.000,,,,
+Qwen3.6-35B,llm_only,0.311,0.991,0.413,0.346,0.337,82,8,82,
+Qwen3.6-35B,full_hybrid,0.975,0.949,0.801,0.771,0.777,3,45,3,
+Qwen3.6-35B,oracle_capture,1.000,1.000,1.000,1.000,1.000,,,,
+Mistral-Small-3.2,llm_only,0.471,0.944,0.437,0.346,0.298,63,49,63,
+Mistral-Small-3.2,full_hybrid,0.714,0.948,0.634,0.623,0.575,34,46,34,
+Mistral-Small-3.2,oracle_capture,1.000,1.000,1.000,1.000,1.000,,,,

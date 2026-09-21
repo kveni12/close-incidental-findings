@@ -1,0 +1,10 @@
+model,configuration,reports,findings,actionable_findings,recommendations,capture_errors,runtime_note
+Llama-4 Scout,A: LLM-only,1000,538,31,105,1,offline_from_saved_outputs
+Llama-4 Scout,B: + ACR calibrate,1000,538,74,174,1,offline_from_saved_outputs
+Llama-4 Scout,C: Full hybrid,1000,1136,143,286,1,offline_from_saved_outputs
+Qwen3.6-35B,A: LLM-only,1000,549,44,64,0,offline_from_saved_outputs
+Qwen3.6-35B,B: + ACR calibrate,1000,549,75,193,0,offline_from_saved_outputs
+Qwen3.6-35B,C: Full hybrid,1000,1162,152,313,0,offline_from_saved_outputs
+Mistral-Small-3.2,A: LLM-only,1000,574,34,161,2,offline_from_saved_outputs
+Mistral-Small-3.2,B: + ACR calibrate,1000,574,67,140,2,offline_from_saved_outputs
+Mistral-Small-3.2,C: Full hybrid,1000,1199,137,249,2,offline_from_saved_outputs

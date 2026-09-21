@@ -1,0 +1,133 @@
+{
+  "dumb_baseline": {
+    "presence_kappa": 0.7608814092862763,
+    "actionability_linear_kappa": 0.6911639346553193,
+    "thresholds_mm": {
+      "kidney": 10.0,
+      "liver": 10.0,
+      "adrenal": 10.0,
+      "pancreas": 5.0,
+      "adnexal": 30.0
+    }
+  },
+  "template_shift": {
+    "definition": "Structured = \u22653 organ-section headers (Liver:/Kidneys:/etc.). Sparse = fewer headers. Single-site institutional template-style split; not an external institution.",
+    "n_structured": 178,
+    "n_sparse": 822,
+    "models": {
+      "Llama-4 Scout": {
+        "llm_only": {
+          "structured": {
+            "n": 178,
+            "presence_kappa": 0.052183173588924325,
+            "actionability_linear_kappa": 0.19844052224371378,
+            "actionable_kappa": 0.12817532790967967
+          },
+          "sparse": {
+            "n": 822,
+            "presence_kappa": 0.8081720977596741,
+            "actionability_linear_kappa": 0.6471185117731235,
+            "actionable_kappa": 0.1950055086301874
+          }
+        },
+        "full_hybrid": {
+          "structured": {
+            "n": 178,
+            "presence_kappa": 1.0,
+            "actionability_linear_kappa": 0.7264694583173261,
+            "actionable_kappa": 0.8075935684366977
+          },
+          "sparse": {
+            "n": 822,
+            "presence_kappa": 0.9450020072260137,
+            "actionability_linear_kappa": 0.9158640313616311,
+            "actionable_kappa": 0.8864091757064879
+          }
+        }
+      },
+      "Qwen3.6-35B": {
+        "llm_only": {
+          "structured": {
+            "n": 178,
+            "presence_kappa": 0.08105317501290654,
+            "actionability_linear_kappa": 0.22820888860549648,
+            "actionable_kappa": 0.24297865511153904
+          },
+          "sparse": {
+            "n": 822,
+            "presence_kappa": 0.8352573352573353,
+            "actionability_linear_kappa": 0.683366882874823,
+            "actionable_kappa": 0.3919518690206134
+          }
+        },
+        "full_hybrid": {
+          "structured": {
+            "n": 178,
+            "presence_kappa": 1.0,
+            "actionability_linear_kappa": 0.7332440533129265,
+            "actionable_kappa": 0.8797459802729362
+          },
+          "sparse": {
+            "n": 822,
+            "presence_kappa": 0.9229557979979754,
+            "actionability_linear_kappa": 0.8938026713308952,
+            "actionable_kappa": 0.8617743996771373
+          }
+        }
+      },
+      "Mistral-Small-3.2": {
+        "llm_only": {
+          "structured": {
+            "n": 178,
+            "presence_kappa": 0.09563658099222938,
+            "actionability_linear_kappa": 0.1789561963744274,
+            "actionable_kappa": 0.1356378600823045
+          },
+          "sparse": {
+            "n": 822,
+            "presence_kappa": 0.696353012290953,
+            "actionability_linear_kappa": 0.5543473854884475,
+            "actionable_kappa": 0.17405381266048914
+          }
+        },
+        "full_hybrid": {
+          "structured": {
+            "n": 178,
+            "presence_kappa": 1.0,
+            "actionability_linear_kappa": 0.6374030753055593,
+            "actionable_kappa": 0.7507351911496989
+          },
+          "sparse": {
+            "n": 822,
+            "presence_kappa": 0.7625649913344887,
+            "actionability_linear_kappa": 0.6428178706347658,
+            "actionable_kappa": 0.4642915331559224
+          }
+        }
+      }
+    }
+  },
+  "external_slice": {
+    "n_candidates": 100,
+    "source_files": [
+      "export_slice_*.txt",
+      "export_slice_*.txt"
+    ],
+    "status": "ids_ready_llm_outputs_not_run",
+    "note": "Cohort LLM runs used only Site-A export. Site-B export/3 provide different export slices from the same institution family; treat as template/export shift, not a true multi-center external site. Run CLOSE on these IDs to complete the external slice.",
+    "how_to_run": "Restrict pipeline with --report-ids-from after writing a JSONL of these IDs, or filter iter_reports to this ID set."
+  },
+  "link": {
+    "evaluation_mode": "simulated_context_unit_tests_plus_cohort_failsafe_description",
+    "simulated_scenarios_n": 5,
+    "simulated_routing_accuracy": 1.0,
+    "cohort_assignments": 313,
+    "cohort_failsafe_rate": 1.0,
+    "scope_statement": "In the primary 1000-report experiment, EHR/PCP specialty context was unavailable, so Link operated in failsafe-only mode (safety pool + human review). Link is therefore described and unit-tested under simulated contexts, but **not clinically validated** on real provider directories in this cohort."
+  },
+  "failure_taxonomy_models": [
+    "Llama-4 Scout",
+    "Qwen3.6-35B",
+    "Mistral-Small-3.2"
+  ]
+}

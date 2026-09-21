@@ -1,0 +1,10 @@
+{"report_id":"syn_adrenal","report_text":"CT abdomen for trauma. Incidental 2.0 cm left adrenal nodule measuring 18 HU on unenhanced CT."}
+{"report_id":"syn_renal_simple","report_text":"CT abdomen shows a homogeneous right renal cyst measuring 12 HU, compatible with simple cyst. No follow-up needed."}
+{"report_id":"syn_renal_bosniak","report_text":"Complex cystic left renal lesion with thick septations and a mural nodule measures 2.4 cm."}
+{"report_id":"syn_liver_hemo","report_text":"Incidental 1.8 cm hepatic hemangioma with benign imaging features."}
+{"report_id":"syn_liver_indeterminate","report_text":"In a patient with colon cancer, there is an indeterminate 8 mm liver lesion."}
+{"report_id":"syn_pancreas","report_text":"Incidental 1.7 cm pancreatic cyst without mural nodule or main duct dilation."}
+{"report_id":"syn_followed","report_text":"Stable right adrenal adenoma unchanged since 2020."}
+{"report_id":"syn_no_follow","report_text":"Simple left renal cyst. No further follow-up is required."}
+{"report_id":"syn_ambiguous","report_text":"Tiny hypodense renal lesion is incompletely characterized."}
+{"report_id":"syn_ed_no_pcp","clinical_setting":"ED","report_text":"ED CT abdomen shows an indeterminate 1.4 cm right adrenal nodule."}

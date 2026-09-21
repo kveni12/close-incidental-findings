@@ -1,0 +1,5 @@
+model,run_a,run_b,n_shared,presence_kappa,actionable_kappa,actionability_linear_kappa,exact_agreement
+Qwen3.6-35B,run_9199835,run_9500762,100,0.858,0.000,0.574,0.880
+Mistral-Small-3.2,run_9199674,run_9199835,100,0.875,0.237,0.593,0.820
+Mistral-Small-3.2,run_9199674,run_9500762,100,0.911,0.237,0.680,0.850
+Mistral-Small-3.2,run_9199835,run_9500762,100,0.905,1.000,0.857,0.940

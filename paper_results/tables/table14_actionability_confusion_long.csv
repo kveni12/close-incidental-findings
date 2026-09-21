@@ -1,0 +1,97 @@
+model,configuration,reference,predicted,count
+Llama-4 Scout,llm_only,none,none,750
+Llama-4 Scout,llm_only,none,non_actionable,6
+Llama-4 Scout,llm_only,none,uncertain,1
+Llama-4 Scout,llm_only,none,actionable,0
+Llama-4 Scout,llm_only,non_actionable,none,32
+Llama-4 Scout,llm_only,non_actionable,non_actionable,71
+Llama-4 Scout,llm_only,non_actionable,uncertain,16
+Llama-4 Scout,llm_only,non_actionable,actionable,5
+Llama-4 Scout,llm_only,uncertain,none,6
+Llama-4 Scout,llm_only,uncertain,non_actionable,20
+Llama-4 Scout,llm_only,uncertain,uncertain,11
+Llama-4 Scout,llm_only,uncertain,actionable,2
+Llama-4 Scout,llm_only,actionable,none,7
+Llama-4 Scout,llm_only,actionable,non_actionable,33
+Llama-4 Scout,llm_only,actionable,uncertain,28
+Llama-4 Scout,llm_only,actionable,actionable,12
+Llama-4 Scout,full_hybrid,none,none,750
+Llama-4 Scout,full_hybrid,none,non_actionable,2
+Llama-4 Scout,full_hybrid,none,uncertain,3
+Llama-4 Scout,full_hybrid,none,actionable,2
+Llama-4 Scout,full_hybrid,non_actionable,none,0
+Llama-4 Scout,full_hybrid,non_actionable,non_actionable,94
+Llama-4 Scout,full_hybrid,non_actionable,uncertain,23
+Llama-4 Scout,full_hybrid,non_actionable,actionable,7
+Llama-4 Scout,full_hybrid,uncertain,none,0
+Llama-4 Scout,full_hybrid,uncertain,non_actionable,2
+Llama-4 Scout,full_hybrid,uncertain,uncertain,32
+Llama-4 Scout,full_hybrid,uncertain,actionable,5
+Llama-4 Scout,full_hybrid,actionable,none,0
+Llama-4 Scout,full_hybrid,actionable,non_actionable,4
+Llama-4 Scout,full_hybrid,actionable,uncertain,2
+Llama-4 Scout,full_hybrid,actionable,actionable,74
+Qwen3.6-35B,llm_only,none,none,747
+Qwen3.6-35B,llm_only,none,non_actionable,9
+Qwen3.6-35B,llm_only,none,uncertain,1
+Qwen3.6-35B,llm_only,none,actionable,0
+Qwen3.6-35B,llm_only,non_actionable,none,21
+Qwen3.6-35B,llm_only,non_actionable,non_actionable,96
+Qwen3.6-35B,llm_only,non_actionable,uncertain,4
+Qwen3.6-35B,llm_only,non_actionable,actionable,3
+Qwen3.6-35B,llm_only,uncertain,none,5
+Qwen3.6-35B,llm_only,uncertain,non_actionable,24
+Qwen3.6-35B,llm_only,uncertain,uncertain,3
+Qwen3.6-35B,llm_only,uncertain,actionable,7
+Qwen3.6-35B,llm_only,actionable,none,4
+Qwen3.6-35B,llm_only,actionable,non_actionable,49
+Qwen3.6-35B,llm_only,actionable,uncertain,5
+Qwen3.6-35B,llm_only,actionable,actionable,22
+Qwen3.6-35B,full_hybrid,none,none,747
+Qwen3.6-35B,full_hybrid,none,non_actionable,5
+Qwen3.6-35B,full_hybrid,none,uncertain,4
+Qwen3.6-35B,full_hybrid,none,actionable,1
+Qwen3.6-35B,full_hybrid,non_actionable,none,0
+Qwen3.6-35B,full_hybrid,non_actionable,non_actionable,84
+Qwen3.6-35B,full_hybrid,non_actionable,uncertain,35
+Qwen3.6-35B,full_hybrid,non_actionable,actionable,5
+Qwen3.6-35B,full_hybrid,uncertain,none,0
+Qwen3.6-35B,full_hybrid,uncertain,non_actionable,0
+Qwen3.6-35B,full_hybrid,uncertain,uncertain,33
+Qwen3.6-35B,full_hybrid,uncertain,actionable,6
+Qwen3.6-35B,full_hybrid,actionable,none,0
+Qwen3.6-35B,full_hybrid,actionable,non_actionable,3
+Qwen3.6-35B,full_hybrid,actionable,uncertain,0
+Qwen3.6-35B,full_hybrid,actionable,actionable,77
+Mistral-Small-3.2,llm_only,none,none,721
+Mistral-Small-3.2,llm_only,none,non_actionable,16
+Mistral-Small-3.2,llm_only,none,uncertain,17
+Mistral-Small-3.2,llm_only,none,actionable,3
+Mistral-Small-3.2,llm_only,non_actionable,none,17
+Mistral-Small-3.2,llm_only,non_actionable,non_actionable,78
+Mistral-Small-3.2,llm_only,non_actionable,uncertain,25
+Mistral-Small-3.2,llm_only,non_actionable,actionable,4
+Mistral-Small-3.2,llm_only,uncertain,none,4
+Mistral-Small-3.2,llm_only,uncertain,non_actionable,20
+Mistral-Small-3.2,llm_only,uncertain,uncertain,12
+Mistral-Small-3.2,llm_only,uncertain,actionable,3
+Mistral-Small-3.2,llm_only,actionable,none,4
+Mistral-Small-3.2,llm_only,actionable,non_actionable,35
+Mistral-Small-3.2,llm_only,actionable,uncertain,28
+Mistral-Small-3.2,llm_only,actionable,actionable,13
+Mistral-Small-3.2,full_hybrid,none,none,721
+Mistral-Small-3.2,full_hybrid,none,non_actionable,17
+Mistral-Small-3.2,full_hybrid,none,uncertain,5
+Mistral-Small-3.2,full_hybrid,none,actionable,14
+Mistral-Small-3.2,full_hybrid,non_actionable,none,0
+Mistral-Small-3.2,full_hybrid,non_actionable,non_actionable,97
+Mistral-Small-3.2,full_hybrid,non_actionable,uncertain,19
+Mistral-Small-3.2,full_hybrid,non_actionable,actionable,8
+Mistral-Small-3.2,full_hybrid,uncertain,none,0
+Mistral-Small-3.2,full_hybrid,uncertain,non_actionable,16
+Mistral-Small-3.2,full_hybrid,uncertain,uncertain,19
+Mistral-Small-3.2,full_hybrid,uncertain,actionable,4
+Mistral-Small-3.2,full_hybrid,actionable,none,0
+Mistral-Small-3.2,full_hybrid,actionable,non_actionable,18
+Mistral-Small-3.2,full_hybrid,actionable,uncertain,0
+Mistral-Small-3.2,full_hybrid,actionable,actionable,62
