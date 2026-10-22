@@ -69,6 +69,8 @@ Aggregate results live under `paper_results/` (`RESULTS_SUMMARY.md`).
 
 If you use this code, please cite the CLOSE manuscript (link TBD).
 
+**Code:** https://github.com/kveni12/close-incidental-findings
+
 ## License
 
 MIT — see `LICENSE`.
